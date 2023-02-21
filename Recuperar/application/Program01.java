@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import db.DB01;
+import db.DB02;
 
 public class Program01 {
 
@@ -29,9 +30,9 @@ public class Program01 {
 			e.printStackTrace();
 		}
 		finally {
-			DB01.closeResultSet(rs);
-			DB01.closeStatement(st);
-			DB01.closeConnection();
+			DB02.closeResultSet(rs);
+			DB02.closeStatement(st);
+			DB02.closeConnection();
 		}
 	}
 }
