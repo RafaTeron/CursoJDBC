@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="First"/>
 	<classpathentry kind="src" path="InserirDados"/>
 	<classpathentry kind="src" path="AtualizarDados"/>
+	<classpathentry kind="src" path="DeletarDados"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
